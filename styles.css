@@ -175,10 +175,6 @@ button[type="submit"] {
   font-size: 18px;
 }
 
-.features li {
-  margin-bottom: 10px;
-}
-
 /* Padding for smaller screens (smartphones) */
 @media (max-width: 480px) {
   #home {
