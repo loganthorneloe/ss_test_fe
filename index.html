@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="styles.css"> 
 </head>
 <body>
+  <a id="top"></a>
   <header>
     <nav>
       <button class="button">
@@ -15,83 +16,99 @@
       </button>
     </nav>
   </header>
-  <div class="section">
-    <h1>Let AI read newsletters for you. <div class="mute">Declutter your inbox and never miss a detail.</div></h1>
-    <div class="checklist section-body">
-      <div class="link">Join the waitlist ↗</div>
-      <div class="link">How does it work? ↗</div>
-      <div class="link">FAQs ↗</div>
-      <div class="link">Pricing ↗</div>
-      <div class="link">Contact ↗</div>
+  <div id="home" class="section">
+    <h1 class="title">Subscrubby</h1>
+    <h1>Let AI read newsletters for you. <div class="mute">Declutter your inbox and never miss a detail 🧽</div></h1>
+    <div class="inner-section">
+      <div class="link"><a href="#how-it-works">How it works ↗</a></div>
+      <div class="link"><a href="#join">Join the waitlist ↗</a></div>
+      <div class="link"><a href="#faqs">FAQs ↗</a></div>
+      <div class="link"><a href="#pricing">Pricing ↗</a></div>
+      <div class="link"><a href="#contact">Contact ↗</a></div>
     </div>
   </div>
-  <div class="section">
-    <h1>How does it work?</h1>
-    <div class="checklist section-body">
-      <div class="mute tagline">A super simple way to improve newsletter reading.</div>
-      <div class="checklist-element">
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-check-circle"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><path d="m9 11 3 3L22 4"/></svg>
-        Sign up for a Subscrubby account.
-      </div>
-      <div class="checklist-element">
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-check-circle"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><path d="m9 11 3 3L22 4"/></svg>
-        Use your Subscrubby email to subscribe to as many newsletters as you want.
-      </div>
-      <div class="checklist-element">
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-check-circle"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><path d="m9 11 3 3L22 4"/></svg>
-        Receive a high-quality summary email of each article you've recevied once a week.
-      </div>
-      <div class="checklist-element">
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-check-circle"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><path d="m9 11 3 3L22 4"/></svg>
-        <strong>Never miss a detail.</strong>
-      </div>
+  <div id="how-it-works" class="section">
+    <div class="link"><a href="#top">↖ Home</a></div>
+    <h1>How it works <div class="mute">Newsletters, simplified</div></h1>
+    <div class="inner-section">
+      <h2 class="inner-subsection">
+        <div>1. Sign up for a Subscrubby account.</div>
+      </h2>
+      <h2 class="inner-subsection">
+        <div>2. Use your Subscrubby email to subscribe to as many newsletters as you want.</div>
+      </h2>
+      <h2 class="inner-subsection">
+        <div>3. Receive a high-quality summary email of each article you've recevied once a week.</div>
+      </h2>
+      <h2 class="inner-subsection">
+        <div>4. Never miss a detail.</div>
+      </h2>
     </div>
   </div>
-  <div class="section">
-    <h1>Join the waitlist</h1>
-    <div class="section-body">
-      <div class="mute tagline">Be first to know when Subscrubby is available.</div>
+  <div id="join" class="section">
+    <div class="link"><a href="#top">↖ Home</a></div>
+    <h1>Join the waitlist <div class="mute">Be first to know when Subscrubby is available</div></h1>
+    <div class="inner-section">
       <form action="#" method="post"> 
         <input type="email" name="email" placeholder="Enter your email" required>
         <button class="button" type="submit">Join</button>
         <!-- https://mailchi.mp/974343930a56/subscrubby -->
       </form>
+    </div>
   </div>
-  <div class="section">
-    <h1>Pricing</h1>
-    <div class="container section-body">
-      <div class="mute tagline">Note: everything is free while in beta.</div>
-      <div class="pricing-cards">
+  <div  id="faqs" class="section">
+    <div class="link"><a href="#top">↖ Home</a></div>
+    <h1>FAQs <div class="mute">Get to know Subscrubby better</div></h1>
+    <div class="inner-section">
+      <h2 class="inner-subsection">First Question<div class="mute">First answer</div></h2>
+      <h2 class="inner-subsection">Second Question<div class="mute">Second answer</div></h2>
+      <h2 class="inner-subsection">Third Question<div class="mute">Third answer</div></h2>
+    </div>
+  </div>
+  <div id="pricing" class="section">
+    <div class="link"><a href="#top">↖ Home</a></div>
+    <h1>Pricing <div class="mute">All plans are free while in beta</div></h1>
+    <div class="inner-section">
+      <div class="cards">
         <div class="card">
-          <h3>Free</h3>
+          <h1>Free</h1>
           <div class="price">
-            <span class="currency">$</span>
-            <span class="amount">0</span>
-            <span class="duration">/mo</span>
+            $0<span>/mo</span>
           </div>
-          <ul class="features">
-            <li>Feature 1</li>
-            <li>Feature 2</li>
-            <li>Limited Feature 3</li>
-          </ul>
-          <a href="#" class="button">Sign Up</a>
+          <h3 class="inner-subsection">A weekly high-quality newsletter summary</h3>
+          <h3 class="inner-subsection">One inbox</h3>
+          <h3 class="inner-subsection">Up to 5 newsletters</h3>
+          <h3><a><strong>Click to sign up ↗</strong></a></h3>
         </div>
-        <div class="card"> <h3>Plus</h3> 
+        <div class="card">
+          <h1>More</h1>
           <div class="price">
-            <span class="currency">$</span>
-            <span class="amount">10</span>
-            <span class="duration">/mo</span>
+            $5<span>/mo</span>
           </div>
-          <ul class="features">
-            <li>All Basic Features</li>
-            <li>Extra Feature 1</li>
-            <li>Extra Feature 2</li>
-          </ul>
-          <a href="#" class="button">Sign Up</a>
+          <h3 class="inner-subsection">Custom high-quality newsletter summaries</h3>
+          <h3 class="inner-subsection">Multiple inboxes</h3>
+          <h3 class="inner-subsection">Unlimited newsletters</h3>
+          <h3><a><strong>Click to sign up ↗</strong></a></h3>
         </div>
       </div>
   </div>
-  <h2>FAQs</h2>
-  <div>Questions here.</div>
+    <!-- <div class="link"><a href="#top">↖ Home</a></div>
+    <h1>Pricing <div class="mute">All plans are free while in beta</div></h1>
+    <div class="inner-section">
+      <div class="inner-subsection">
+        <h2>Free<div class="mute">$0/mo</div></h2>
+        <div class="link"><a href="#">Sign up ↗</a></div>
+      </div>
+      <div class="inner-subsection">
+        <h2>Plus<div class="mute">$10/mo</div></h2>
+        <div class="link"><a href="#">Sign up ↗</a></div>
+      </div>
+    </div> -->
+  </div>
+  <footer class="mute">
+    <div class="link"><a>Privacy Policy ↗</a></div>
+    <div id="contact" class="link">Contact: <a>support@subscrubby.com</a></div>
+    <div class="link">&copy; 2024 Subscrubby</div>
+  </footer>
 </body>
 </html>
